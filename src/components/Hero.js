@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { getYearsOfExperience } from '../data/portfolioData';
 
 const Hero = () => {
     return (
@@ -26,7 +27,7 @@ const Hero = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1, ease: "easeOut", delay: 0.4 }}
                 >
-                    5+ years crafting scalable Flutter & Node.js applications that connect millions of users worldwide
+                    {`${getYearsOfExperience()} years crafting scalable Flutter & Node.js applications that connect millions of users worldwide`}
                 </motion.p>
                 <motion.a
                     href="#contact"
@@ -36,7 +37,7 @@ const Hero = () => {
                     transition={{ duration: 1, ease: "easeOut", delay: 0.6 }}
                     whileHover={{ scale: 1.05, boxShadow: "0 20px 40px rgba(100, 255, 218, 0.3)" }}
                 >
-                    Let's Build Something Amazing
+                    {"Let's Build Something Amazing"}
                 </motion.a>
             </div>
         </section>

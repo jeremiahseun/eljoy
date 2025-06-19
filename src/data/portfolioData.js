@@ -1,8 +1,25 @@
+// Function to calculate years of experience
+export const getYearsOfExperience = () => {
+  const startDate = new Date(2020, 2, 1); // March is month 2 (0-indexed)
+  const currentDate = new Date();
+  let years = currentDate.getFullYear() - startDate.getFullYear();
+  const m = currentDate.getMonth() - startDate.getMonth();
+  if (m < 0 || (m === 0 && currentDate.getDate() < startDate.getDate())) {
+    years--;
+  }
+  // Check if it's more than the exact year to add '+'
+  const exactYearAnniversary = new Date(startDate.getFullYear() + years, startDate.getMonth(), startDate.getDate());
+  if (currentDate > exactYearAnniversary) {
+    return `${years}+`;
+  }
+  return `${years}`;
+};
+
 export const stats = [
     { number: '150K+', label: 'App Downloads' },
     { number: '4.8★', label: 'Average Rating' },
     { number: '35%', label: 'Crash Rate Reduction' },
-    { number: '5+', label: 'Years Experience' },
+    { number: getYearsOfExperience, label: 'Years Experience' },
 ];
 
 export const navLinks = [
@@ -60,6 +77,12 @@ export const skillsData = [
 ];
 
 export const projectsData = [
+    {
+        title: 'This Portfolio Website',
+        description: 'My personal portfolio website built with Next.js, showcasing my skills, projects, and experience. Features dynamic content, animations, and GitHub API integration.',
+        technologies: ['Next.js', 'React', 'Framer Motion', 'JavaScript', 'CSS'],
+        link: 'https://github.com/jeremiahseun/eljoy',
+    },
     {
         title: 'Wardrobe Buddy AI',
         description: 'AI-powered outfit recommendation platform using Gemini 2.0 Flash. Suggests daily outfit combinations based on weather and existing wardrobe, built as PWA for cross-platform compatibility.',
