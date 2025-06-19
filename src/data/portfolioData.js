@@ -61,31 +61,61 @@ export const skillsData = [
 
 export const projectsData = [
     {
-        title: 'Project One',
-        description: 'A cool project I built.',
-        technologies: ['React', 'Next.js', 'Node.js'],
-        link: '#',
+        title: 'Wardrobe Buddy AI',
+        description: 'AI-powered outfit recommendation platform using Gemini 2.0 Flash. Suggests daily outfit combinations based on weather and existing wardrobe, built as PWA for cross-platform compatibility.',
+        technologies: ['Flutter', 'Node.js', 'Gemini AI', 'Cloudflare', 'Supabase'],
+        link: 'https://github.com/jeremiahseun',
     },
     {
-        title: 'Project Two',
-        description: 'Another cool project.',
-        technologies: ['Flutter', 'Firebase', 'Dart'],
-        link: '#',
+        title: 'GreenVoice',
+        description: 'Award-winning civic engagement platform for reporting issues and voting on community projects. Winner of FlutterBytes Hackathon 2024 with real-time voting and geolocation features.',
+        technologies: ['Flutter', 'Firebase', 'Google Maps', 'Real-time DB'],
+        link: 'https://github.com/jeremiahseun',
+    },
+    {
+        title: 'Stripe Identity Plugin',
+        description: 'Flutter/Dart KYC package for seamless identity verification through document uploads. Supports both Android and iOS with robust security features.',
+        technologies: ['Flutter', 'Dart', 'Stripe API', 'Native SDK'],
+        link: 'https://github.com/jeremiahseun',
+    },
+    {
+        title: 'Swiftly Rescue Platform',
+        description: 'Automobile support platform serving 10K+ users with location-based services. Optimized performance by 30% and integrated Google Maps for enhanced navigation.',
+        technologies: ['Flutter', 'Google Maps', 'REST API', 'Location Services'],
+        link: 'https://github.com/jeremiahseun',
     },
 ];
 
 export const experienceData = [
     {
-        date: '2022 - Present',
-        title: 'Senior Fullstack Engineer',
-        company: 'Tech Innovations Inc.',
-        description: 'Leading the development of cutting-edge web and mobile applications.',
+        date: 'Dec 2024 - Apr 2025',
+        title: 'Android Engineer (Flutter)',
+        company: 'Anywhere Healing Ltd',
+        description: 'Leading Android development for bio-resonance health platform. Achieved 15% faster data sync with BLE optimization and 20% increase in daily active users.',
     },
     {
-        date: '2020 - 2022',
-        title: 'Mobile Engineer',
-        company: 'Mobile Solutions Co.',
-        description: 'Developed and maintained several high-traffic mobile apps.',
+        date: 'Nov 2023 - Present',
+        title: 'Mobile Developer',
+        company: 'Swiftly Rescue Ltd',
+        description: 'Built automobile support platform from scratch, serving 10K+ users. Reduced response time by 30% and increased user satisfaction by 25%.',
+    },
+    {
+        date: 'May 2024 - Nov 2024',
+        title: 'Flutter Engineer',
+        company: 'Shearify Ltd',
+        description: 'Developed global stylist connection app, increasing bookings by 40%. Delivered 99.9% crash-free sessions using AWS Amplify and GraphQL.',
+    },
+    {
+        date: 'June 2022 - Oct 2023',
+        title: 'Lead Flutter Developer',
+        company: 'Impresanera Ltd',
+        description: 'Led ride-hailing platform development achieving 60% adoption in 6 months. Implemented WebSockets for real-time communication.',
+    },
+    {
+        date: 'Oct 2021 - June 2022',
+        title: 'Mobile Developer',
+        company: 'Hotels.ng',
+        description: 'Created iOS app capturing 30% more mobile users. Improved Android performance by 25% and user retention by 20%.',
     },
 ];
 
