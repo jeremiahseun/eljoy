@@ -23,11 +23,11 @@ const Navbar = () => {
             transition={{ duration: 0.5 }}
         >
             <div className={styles.navContainer}>
-                <Link href="/" className={styles.logo}>J.ERINOLA</Link>
+                <Link href="/" className={styles.logo}>EL-Joy</Link>
                 <ul className={styles.navLinks}>
                     {navLinks.map((link) => (
                         <li key={link.name}>
-                            <Link href={link.href}><motion.span whileHover={{ color: '#64ffda' }}>{link.name}</motion.span></Link>
+                            <Link href={link.href}><motion.span style={{ color: 'lightgrey' }} whileHover={{ color: '#64ffda' }}>{link.name}</motion.span></Link>
                         </li>
                     ))}
                 </ul>

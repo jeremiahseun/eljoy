@@ -121,7 +121,7 @@ export const experienceData = [
 
 export const contactLinks = [
     { name: 'Email', href: 'mailto:jeremiaherinola@example.com', icon: 'fas fa-envelope' },
-    { name: 'LinkedIn', href: 'https://linkedin.com/in/jeremiaherinola', icon: 'fab fa-linkedin' },
-    { name: 'GitHub', href: 'https://github.com/jeremiaherinola', icon: 'fab fa-github' },
-    { name: 'Twitter', href: 'https://twitter.com/jeremiaherinola', icon: 'fab fa-twitter' },
+    { name: 'LinkedIn', href: 'https://www.linkedin.com/in/jeremiah-seun-eljoy', icon: 'fab fa-linkedin' },
+    { name: 'GitHub', href: 'https://github.com/jeremiahseun', icon: 'fab fa-github' },
+    { name: 'Twitter', href: 'https://twitter.com/erinolajerry', icon: 'fab fa-twitter' },
 ];
