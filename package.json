@@ -1,22 +1,25 @@
 {
-  "name": "eljoy",
+  "name": "eljoy-video",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "studio": "remotion studio remotion/index.ts",
+    "render": "remotion render remotion/index.ts",
+    "lint": "eslint ."
   },
   "dependencies": {
+    "@remotion/cli": "^4.0.410",
+    "@remotion/zod-types": "^4.0.410",
+    "@types/node": "^25.0.10",
+    "@types/react": "^19.2.10",
     "framer-motion": "^12.18.1",
-    "next": "15.3.4",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "remotion": "^4.0.410",
+    "typescript": "^5.9.3"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
-    "eslint": "^9",
-    "eslint-config-next": "15.3.4"
+    "eslint": "^9"
   }
 }
